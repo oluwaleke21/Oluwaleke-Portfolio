@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/eef3ec1472.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Oluwaleke Portfolio</title>
+</head>
+<body class="bg-[#F2F3AE]">
+  <!-- NAVBAR -->
+  <section id="home" class="bg-[#3D0B37] text-white text-[20px] lg:sticky lg:top-0">
+    <nav class="lg:flex justify-between items-center px-[50px] py-[30px] lg:px-[150px] lg:flex-row">
+      <h1 class="hidden text-[25px] font-bold lg:flex">OLUWALEKE SALEM</h1>
+      <ul class="hidden lg:flex gap-6 font-bold">
+        <a class="hover:text-[#EDD382]" href="#home"><li>Home</li></a>
+        <a class="hover:text-[#EDD382]" href="#about"><li>About</li></a>
+        <a class="hover:text-[#EDD382]" href="#projects"><li>Projects</li></a>
+        <a class="hover:text-[#EDD382]" href="#contact"><li>Contact</li></a>
+      </ul>
+    </nav>
+  </section>
+
+  <!-- HERO SECTION -->
+  <section id="about" class="px-[50px] mt-[80px] lg:px-[200px] lg:mt-[150px] flex flex-col-reverse lg:flex-row justify-between items-center gap-[20px] lg:gap-[120px]">
+
+    <div class="flex flex-col gap-6 items-start">
+      <h1 class="text-[24px] font-bold">Hello There👋, I am Oluwaleke Salem</h1>
+      <p class="text-[19px] text-justify">
+        A passionate Backend Developer Intern with strong coding and soft skills and a drive to create efficient, scalable, and innovative solutions. Seeking opportunities to contribute and grow in a dynamic development environment
+      </p>
+      <button class="bg-[#3D0B37] hover:bg-black rounded-lg hover:text-white hover:duration-700 hover:ease-in-out text-[20px] p-2 w-[160px]"><a href="https://drive.google.com/file/d/1orj00ZABSfLRFMvEyQ7ysbjDEilUnCAG/view?usp=drivesdk" target="_blank">Resume</a></button>
+    </div>
+
+    <img class="w-[250px] h-[250px] rounded-full lg:w-[400px] lg:h-[400px] lg:rounded-lg" src="./images/1690809915607.png" alt="image"/>
+  </section>
+
+  <!-- PROJECT SECTION -->
+  <h1 id="projects" class="font-bold text-3xl mt-[150px] flex justify-center">Projects</h1>
+  <section class="flex justify-between">
+
+    <div class="mt-[40px]">
+      <a href="https://edgeledger-sandy.vercel.app/" target="_blank"><img class="w-[650px] h-[400px]" src="./images/Edge Ledger.png" alt="picture 1"></a>
+      <p class="mt-[30px]">An Accounting Firm Website</p>
+    </div>
+
+    <div class="mt-[40px]">
+      <a href="https://hotel-classico.vercel.app/" target="_blank"><img class="w-[650px] h-[400px]" src="./images/Hotel.png" alt="picture 2"></a>
+      <p class="mt-[30px]">An Hotel Website</p>      
+    </div>
+  </section>
+
+  <!-- BLOG POSTS -->
+  <h1 class="font-bold text-3xl mt-[150px] flex justify-center">Blog Posts</h1>
+  <section class="flex justify-between">
+    <div class="mt-[40px]">
+      <a href="https://medium.com/@oluwaleke21/my-tiidelab-pre-fellowship-3-0-experience-e6adb7bf4f5f" target="_blank"><img class="w-[650px] h-[400px]" src="./images/medium.png" alt="picture 3"></a>
+    </div>
+
+    <div class="mt-[40px]">
+      <a href="https://medium.com/@oluwaleke21/my-tiidelab-cohort-5-fellowship-experience-1-0-first-month-7f4e49ddd677" target="_blank"><img class="w-[650px] h-[400px]" src="./images/medium 3.png" alt="picture 4"></a>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="px-[50px]">
+    <div class="p-2">
+      <h2 class="font-bold text-3xl mt-[150px]">Contact Me</h2>
+      <p class="mt-[20px]">Please kindly fill the form below</p>
+      <form>
+        <div>
+          <label class="block mt-[20px]" for="name">Name</label>
+          <input class="w-[100%] p-[0.5rem]" type="text" name="name" id="name"
+          placeholder="Enter Name">
+        </div>
+        <div>
+          <label class="block" for="email">Email</label>
+          <input class="w-[100%] p-[0.5rem]" type="email" name="email" id="email"
+          placeholder="Enter Email">
+        </div>
+        <div>
+          <label class="block" for="name">Location</label>
+          <input class="w-[100%] p-[0.5rem]" type="text" name="name" id="name"
+          placeholder="Enter Location">
+        </div>
+        <div>
+          <label class="block" for="message">Message</label>
+          <textarea class="w-[100%] p-[0.5rem]" name="" id="message" 
+          placeholder="Enter Your Message"></textarea>
+        </div>
+
+        <input class="inline-block bg-[#3D0B37] text-[#EDD382] py-[0.5rem] px-[2rem] rounded-xl hover:text-[#fff] hover:bg-[#333] cursor-pointer mt-[20px]" type="submit" value="Send">
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER SECTION -->
+  <footer id="footer">
+    <div class="lg:flex justify-center items-center px-[50px] py-[30px] lg:px-[150px] lg:flex-row bg-[#3D0B37] text-white">
+      <ul class="lg:flex gap-6 font-bold">
+        <a class="hover:text-[#EDD382]" href="//www.linkedin.com/in/oluwaleke-salem" target="_blank"><li><i class="fa-brands fa-linkedin-in fa-beat-fade"></i>LinkedIn</li></a>
+        <a class="hover:text-[#EDD382]" href="//twitter.com/oluwaleke_21?t=hbvGlWoMPGpcFh0ASNMR_w&s=09" target="_blank"><li><i class="fa-brands fa-twitter"></i>Twitter</li></a>
+        <a class="hover:text-[#EDD382]" href="//wa.me/+2348182654962" target="_blank"><li><i class="fa-brands fa-whatsapp"></i>Whatsapp</li></a>
+        <a class="hover:text-[#EDD382]" href="https://github.com/oluwaleke21" target="_blank"><li><i class="fa-brands fa-github"></i>Github</li></a>
+        <a class="hover:text-[#EDD382]" href="https://medium.com/@oluwaleke21" target="_blank"><li><i class="fa-brands fa-medium"></i>Medium</li></a>
+        <a class="hover:text-[#EDD382]" href="#"><li><i class="fa-solid fa-envelope"></i>Gmail/oluwaleke21@gmail.com</li></a>
+      </ul>
+    </div>
+
+    <div class="lg:flex justify-center items-center px-[50px] py-[30px] lg:px-[150px] lg:flex-row bg-[#3D0B37] text-white mt-[-60px]">
+      <p class="font-bold">Copyright &copy; Oluwaleke A. Salem 2023, All Rights Reserved</p>
+    </div>
+  </footer>
+
+  <!-- JQuery CDN -->
+  <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+
+
+  <!-- Local Js File -->
+  <script src="js/main.js"></script>
+  
+</body>
+</html>
